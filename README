@@ -1,0 +1,44 @@
+Results on my machine (MBP 2011)
+
+
+LLVM 2.8:
+./fib  0.11s user 0.00s system 99% cpu 0.110 total
+
+GCC 4.2.1:
+./fib  0.35s user 0.00s system 99% cpu 0.357 total
+
+Java 1.7:
+java Fibonacci  0.44s user 0.04s system 132% cpu 0.361 total
+
+Scala 2.9:
+scala Fibonacci  0.94s user 0.09s system 128% cpu 0.807 total
+
+Rubinius 2.0:
+ruby fib.rb  2.10s user 0.04s system 107% cpu 2.000 total
+
+MacRuby 0.10:
+macruby fib.rb  2.02s user 0.01s system 99% cpu 2.035 total
+
+JRuby 1.7:
+jruby fib.rb  3.18s user 0.09s system 117% cpu 2.796 total
+
+Ruby 1.9.2:
+ruby fib.rb  6.62s user 0.02s system 98% cpu 6.725 total
+
+Jython 2.5.2:
+jython fib.py  15.12s user 0.69s system 122% cpu 12.940 total
+
+Python 2.7:
+python2.7 fib.py  15.79s user 0.04s system 99% cpu 15.845 total
+
+Python 3.2:
+python3.2 fib.py  17.00s user 0.04s system 99% cpu 17.048 total
+
+PHP 5.3.4:
+php fib.php  20.57s user 0.06s system 99% cpu 20.660 total
+
+Ruby Enterprise Edition 1.8.7:
+ruby fib.rb  35.80s user 0.08s system 99% cpu 35.982 total
+
+Ruby 1.8.7:
+ruby fib.rb  42.37s user 0.09s system 99% cpu 42.600 total
